@@ -6,6 +6,6 @@ Disallow: /profile/
 Disallow: /search/
 
 
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://weather-app-react6/sitemap.xml
 
 
