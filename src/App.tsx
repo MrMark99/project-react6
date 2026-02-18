@@ -263,8 +263,9 @@ export default function App() {
             setError("");
 
             const response = await fetch(
-                `/api/data/2.5/weather?q=${encodeURIComponent(trimmedCity)}&appid=${apiKey}&units=metric`
+                `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`
             );
+
 
 
             if (!response.ok) {
